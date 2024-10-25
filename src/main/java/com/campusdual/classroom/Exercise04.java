@@ -41,7 +41,7 @@ public class Exercise04 {
 
     public static int recursiveFactorial(int num) {
         if (num != 0) {
-            return num * recursiveFactorial(num -1);
+            return num * recursiveFactorial(num - 1);
         }else {
             return 1;
         }
